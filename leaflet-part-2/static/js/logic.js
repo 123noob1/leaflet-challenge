@@ -1,7 +1,8 @@
-// PART 1: Create the Earthquake Visualization
-// -------------------------------------------
+// PART 2: Gather and Plot More Data (with layers)
+// -----------------------------------------------
 // Visualize an earthquake dataset using a dataset of your own choice from USGS (http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
 // Tile layer options can be viewed here at leaflet-extras (https://leaflet-extras.github.io/leaflet-providers/preview/)
+// For tectonic plates, use the link (https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_plates.json)
 
 // Store the queryURL and plate data
 const queryUrl = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson'
