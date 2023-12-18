@@ -41,7 +41,7 @@ function createFeatures(earthquakeData, plateData) {
     // Define a function to create a circular marker with size depending on magnitude and color based on depth
     function createMarker(feature, latlng) {
         return L.circleMarker(latlng, {
-            radius: feature.properties.mag * 4,
+            radius: feature.properties.mag * 5,
             color: 'black',
             fillColor: setMarkerColor(feature.geometry.coordinates[2]),
             weight: 0.25,
