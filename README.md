@@ -15,3 +15,6 @@ To view this visualization, navigate to the <a href="https://github.com/123noob1
 In addition to the dataset and visual from <code>PART I</code>, plot an additional layer to include the tectonic plates (data obtained from <a href="https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_plates.json" target="_blank">here</a>) to illustrate the relationship between tectonic plates and seismic activity. Additional base maps were included to help enhance the visualization as well.
 
 To view this visualization, navigate to the <a href="https://github.com/123noob1/leaflet-challenge/tree/main/leaflet-part-2">leaflet-part-1</a> folder and run the <code>index.html</code> file. The data will change based on the current live data obtained from USGS.
+
+## References
+Leaflet base maps used: <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> and <a href="https://carto.com/attributions" target="_blank">CARTO</a>
