@@ -120,7 +120,7 @@ function createMap(earthquakes, plates) {
     info.onAdd = function() {
         let div = L.DomUtil.create('div', 'legend'),
             grades = [ -10, 10, 30, 50, 70, 90 ],
-            legendInfo = '<h3>Magnitude</h3><hr>';
+            legendInfo = '<h5>Earthquake\'s Depth</h5><hr>';
         
         div.innerHTML = legendInfo;
         

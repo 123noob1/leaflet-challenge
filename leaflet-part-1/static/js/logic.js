@@ -82,13 +82,13 @@ function createMap(earthquakes) {
     info.onAdd = function() {
         let div = L.DomUtil.create('div', 'legend'),
             grades = [ -10, 10, 30, 50, 70, 90 ],
-            legendInfo = '<h3>Magnitude</h3><hr>';
+            legendInfo = '<h5>Earthquake\'s Depth</h5><hr>';
         
         div.innerHTML = legendInfo;
         
         grades.forEach((item, index) => {
             return div.innerHTML +=
-                    '<i style="background: ' + setMarkerColor(item + 1) + ';"></i>' +
+                    '<i style="background: ' + setMarkerColor(item + 1) + ';"></i>&nbsp;' +
                     item + (grades[index + 1] ? '&nbsp;&ndash;&nbsp;' + grades[index + 1] + '<br>' : '+')
         });
 

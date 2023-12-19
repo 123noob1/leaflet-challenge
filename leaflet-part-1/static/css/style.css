@@ -28,11 +28,11 @@ hr {
   text-align: right;
 }
 
-.legend h3 {
+.legend h5 {
   padding: 0px;
   margin: 0px;
   text-align: center;
-  font-size: large;
+  font-size: 90%;
 }
 
 .legend hr {
